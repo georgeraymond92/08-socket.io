@@ -1,0 +1,28 @@
+{
+  "name": "08-socket.io",
+  "version": "1.0.0",
+  "description": "socket.io lab codefellows 401 2019",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeraymond92/08-socket.io.git"
+  },
+  "author": "George Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeraymond92/08-socket.io/issues"
+  },
+  "homepage": "https://github.com/georgeraymond92/08-socket.io#readme",
+  "dependencies": {
+    "eslint": "^5.11.1",
+    "jest": "^23.6.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
